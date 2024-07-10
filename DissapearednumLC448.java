@@ -1,4 +1,4 @@
-package SortingAlgo;
+package sort;
 
 import java.util.*;
 
