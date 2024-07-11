@@ -1,4 +1,4 @@
-package sort;
+package Sortingalgorithm;
 
 public class Fibonacci {
     public static void main(String[] args) {
