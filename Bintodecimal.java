@@ -1,7 +1,7 @@
 package JAVADSAREPO;
 
 import java.util.*;
-
+//or we can use INBUILD function for Decimal to Binary = Integer.toBinaryString();
 public class Bintodecimal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
