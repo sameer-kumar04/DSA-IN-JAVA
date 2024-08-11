@@ -12,7 +12,7 @@ public class Issorted {
 
     static boolean helper (int[] arr, int index) {
 
-        if (index == arr.length - 1) {
+        if (index == arr.length - 1) { //when the pointed reaches at last it means arrays is sorted 
             return true;
         }
 
