@@ -7,7 +7,7 @@ public class Binarysearch_in_rotated_array {
     }
 
     static int search(int[] arr, int target,int start, int end ) {
-        if (start > end) { //base case 
+        if (start > end) { //base case if target is not found 
             return -1;
         }
 
