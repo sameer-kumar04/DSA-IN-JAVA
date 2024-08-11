@@ -10,12 +10,12 @@ public class Reverseusingrecursion {
 
     static void reverse(int n) {
         if (n < 10) {
-            System.out.println(n);
+            System.out.print(n);
             return;
         }
 
         else {
-            System.out.println(n % 10);
+            System.out.print(n % 10);
             reverse(n / 10);
         }
     }
