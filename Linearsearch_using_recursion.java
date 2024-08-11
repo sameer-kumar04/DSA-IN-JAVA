@@ -11,7 +11,7 @@ public class Linearsearch_using_recursion {
             return -1; //target not found
         }
 
-        if ( arr[index] == target) {
+        if ( arr[index] == target) { //when target is found 
             return index;
         }
 
