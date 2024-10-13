@@ -11,16 +11,16 @@ public class prime {
     }
 
     static boolean isPrime(int n) {
-        if (n <= 1) {
+        if (n <= 1) { //for 0 and 1
             return false;
         }
         if (n == 2) {
             return true;
         }
-        if ((n & 1) == 0) { // if number is even then it will not a prime number
+        if ((n & 2) == 0) { // if number is even then it will not a prime number
             return false;
         }
-        for (int i = 3; i <= Math.sqrt(n); i++) {
+        for (int i = 3; i <= Math.sqrt(n); i+=2) {
             if (n % i == 0) {
                 return false;
             }
