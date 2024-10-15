@@ -10,6 +10,9 @@ public class rotatearray { // for rotating an array by k https://youtu.be/8RErc0
 
     static void rotate(int[] arr, int k) {
 
+        if (k == 0) {// no need to rotate if k is 0 or multiple of array length
+          return;
+          } 
         k = k % arr.length; // case : when k is greater than the length of the array
 
         if (k < 0) { // when k is negative
