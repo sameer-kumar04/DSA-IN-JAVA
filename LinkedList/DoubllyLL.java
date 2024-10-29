@@ -1,7 +1,7 @@
 public class DoubllyLL {
 
     Node head;
-    Node tail;
+    Node tail;//taking tail but not using tail in any operation
 
     public void insertFirst(int value) {
 
