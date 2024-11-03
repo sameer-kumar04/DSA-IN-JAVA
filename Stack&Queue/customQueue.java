@@ -13,7 +13,7 @@ public class customQueue {
         this.data = new int[size];
     }
 
-    public boolean add(int item) {
+    public boolean enQueue(int item) {
         if ( isFull() ) {
             return false;
         }
@@ -24,7 +24,7 @@ public class customQueue {
         return true;
     }
 
-    public int delete() throws Exception{
+    public int deQueue() throws Exception{
         if ( isEmpty() ) {
             throw new Exception("Queue is Empty");
         }
@@ -42,7 +42,7 @@ public class customQueue {
         return value;
     }
 
-    public int first() throws Exception{//like peek for just checking the first element 
+    public int peek() throws Exception{//like peek for just checking the first element 
 
         if (isEmpty()) {
             throw new Exception("Queue is Empty");
