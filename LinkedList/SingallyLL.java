@@ -119,6 +119,22 @@ public class SingallyLL {
         size--;
     }
 
+    public void delete(int val) { //for deleting any particular value 
+        if ( head.value == val ) {
+            head = head.next;
+            return;
+        }
+
+        Node temp = head;
+        while ( temp.next != null ) {
+            if ( temp.next.value == val ) {
+                temp.next = temp.next.next;
+                return;
+            }
+            temp = temp.next;
+        }
+    }
+
     public Node getNode(int index) {
         Node temp = head;
 
